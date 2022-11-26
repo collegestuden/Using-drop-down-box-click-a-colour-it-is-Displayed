@@ -1,0 +1,71 @@
+.tractor-page {
+    color: #000;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 39px;
+    display: flex;
+  }
+   .side{
+    color: #000;
+    padding-top:50px;
+    font-weight: italic;
+    font-size: 35px;
+   }
+  
+  .pexels-aliona-pasha {
+    height: 100%;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/843/696/small/light-multicolor-background-with-colorful-stars-vector.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 31px;
+    background-repeat: no-repeat;
+    height:900px;
+  }
+  
+  .group-33885{
+    color: #000;
+    padding-left: 60%;
+    font-size: 25px;
+    padding-top:10px;
+    word-spacing:20px ;
+    font-weight: bold;
+  }
+  .drop{
+    text-align: center;
+  }
+  .dropdownbtn {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    }
+    .dropdowndemo{
+    position:fixed;
+    display: block;
+    padding-left: 720px;
+    width: 100%;
+    
+    }
+    .dropdownlist-content 
+    {
+    display: none;
+    position:absolute;
+    background-color:blue;
+    min-width:120px;
+    z-index:1;
+    }
+    .dropdownlist-content a{
+      color:white;
+      padding:14px 18px;
+      display:block;
+    }
+    .dropdownlist-content a.hover{ background-color: black;}
+    .dropdowndemo:hover .dropdownlist-content{display:block;}
